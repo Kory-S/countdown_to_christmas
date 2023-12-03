@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: lightblue;
+}
+
+.countdown_window {
+    height: 90vh;
+    width: 70%;
+    margin: 2.5% auto;
+    background-color: aliceblue;
+    background-image: url(images/christmas_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_content {
+    color: #452013;
+    padding: 1em;
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+p {
+    font-size: 24px;
+    margin: 2em 0 0 0;
+}
+
+.countdown_timer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.timer_window {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    background-color: #45201390;
+    border-radius: 10px;
+    margin: 10px;
+    height: 12em;
+    width: 8em;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+
+}
+
+.counting {
+    font-size: 96px;
+    margin: 0;
+}
